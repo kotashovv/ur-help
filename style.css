@@ -781,10 +781,21 @@ template {
 }
 
 @media (max-width: 425px) {
+  .welcome {
+    min-height: 100vh;
+    padding-top: 120px;
+  }
+  .welcome__body {
+    justify-content: flex-end;
+    padding-top: 70px;
+  }
+
   .welcome .container {
     padding: 0;
   }
   .welcome__img {
+    transform: none;
+    height: auto;
     margin-bottom: 20px;
   }
   .welcome__text {
